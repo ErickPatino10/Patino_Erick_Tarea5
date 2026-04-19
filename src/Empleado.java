@@ -1,3 +1,25 @@
+/*
+
+MÉTODOS MIXTOS (void + return)
+Tema: Control de empleado
+Objetivo
+Combinar métodos void y return.
+Entrada
+- nombre
+- horas trabajadas
+- pago por hora
+Proceso
+Calcular sueldo base, bono y sueldo final.
+Salida esperada
+----------- REPORTE DE EMPLEADO -----------
+Nombre: Andrea López
+Sueldo base: 480.0
+Bono: 20.0
+Sueldo final: 500.0
+-------------------------------------------
+
+ */
+
 import java.util.Scanner;
 
 public class Empleado {

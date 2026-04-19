@@ -1,3 +1,22 @@
+/*
+Tema: Cálculo de promedio final
+Objetivo
+Aplicar métodos con return para devolver resultados numéricos y textuales.
+Enunciado
+Crear una clase Calificacion con nombre y tres notas. Calcular promedio y estado.
+Entrada
+- nombre del estudiante
+- nota 1, nota 2, nota 3
+Proceso
+Calcular promedio y determinar estado (>=7 Aprobado, <7 Reprobado).
+Salida esperada
+-------- REPORTE ACADÉMICO --------
+Nombre: Carla Pérez
+Promedio final: 8.5
+Estado: Aprobado
+-----------------------------------
+
+ */
 import java.util.Scanner;
 
 public class Calificacion {

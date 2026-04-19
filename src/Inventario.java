@@ -1,3 +1,54 @@
+/*
+Enunciado
+Una empresa distribuidora necesita desarrollar un sistema para administrar información de sus productos y tomar decisiones de reposición de inventario.
+De cada producto se requiere conocer:
+•	código del producto,
+•	nombre comercial,
+•	categoría,
+•	precio unitario,
+•	stock disponible,
+•	stock mínimo permitido.
+La empresa desea que la información descriptiva del producto pueda consultarse de manera sencilla, pero que los datos críticos de control, como precio, stock y stock mínimo, sean protegidos y modificados únicamente bajo condiciones válidas.
+
+El sistema debe permitir registrar productos, actualizar su información y evaluar automáticamente su estado dentro del inventario.
+Además, el sistema debe ser capaz de determinar:
+•	el valor total del inventario de un producto,
+•	si el producto necesita reposición,
+•	si el stock es crítico,
+•	y si los cambios realizados cumplen reglas válidas de negocio.
+
+Reglas del negocio
+El sistema debe considerar lo siguiente:
+1.	El precio unitario no puede ser menor o igual a cero.
+2.	El stock disponible no puede ser negativo.
+3.	El stock mínimo no puede ser negativo.
+4.	Si el stock actual es menor que el stock mínimo, el producto debe marcarse como “Requiere reposición”.
+5.	Si el stock actual es igual a cero, el producto debe marcarse como “Producto agotado”.
+6.	Si el stock actual es mayor al mínimo, el producto debe marcarse como “Stock suficiente”.
+
+Situación de trabajo
+La gerencia desea registrar inicialmente un producto y luego realizar una actualización de datos para verificar si el sistema valida correctamente la información antes de aceptar cambios.
+También desea obtener un reporte final con:
+•	datos generales del producto,
+•	valor total del inventario,
+•	estado del stock,
+•	y mensajes de validación.
+
+Datos de prueba sugeridos
+Caso inicial:
+•	Código: PRD-105
+•	Nombre: Disco SSD 1TB
+•	Categoría: Almacenamiento
+•	Precio unitario: 89.50
+•	Stock disponible: 12
+•	Stock mínimo: 8
+Posteriormente, se desea intentar actualizar:
+•	Precio unitario a 95.00
+•	Stock disponible a 5
+Y luego probar un caso inválido:
+•	Stock disponible a -3
+
+ */
 import java.util.Scanner;
 
 public class Inventario {

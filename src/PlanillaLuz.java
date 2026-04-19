@@ -1,3 +1,24 @@
+/*
+MÉTODOS CON return
+Tema: Planilla de luz
+Objetivo
+Aplicar métodos con return para cálculos encadenados.
+Entrada
+- nombre del cliente
+- consumo
+- costo por kW
+Proceso
+Calcular subtotal, IVA 15% y total.
+Salida esperada
+----------- PLANILLA DE LUZ -----------
+Cliente: Luis Andrade
+Subtotal: 24.0
+IVA: 3.6
+Total a pagar: 27.6
+---------------------------------------
+
+ */
+
 import java.util.Scanner;
 
 public class PlanillaLuz {

@@ -1,3 +1,25 @@
+/*
+Tema: Pedido restaurante
+Objetivo
+Diferenciar métodos de cálculo y de salida.
+Entrada
+- cliente
+- plato
+- precio
+- cantidad
+Proceso
+Calcular subtotal, descuento 10% (>25) y total final.
+Salida esperada
+------------- CUENTA DEL PEDIDO -------------
+Cliente: María Silva
+Plato: Encebollado
+Precio: 4.5
+Cantidad: 6
+Subtotal: 27.0
+Descuento: 2.7
+Total final: 24.3
+
+ */
 import java.util.Scanner;
 
 public class Pedido {

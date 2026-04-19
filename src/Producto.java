@@ -1,3 +1,44 @@
+/*
+PRÁCTICA 2: MÉTODOS void
+Tema
+Control de producto
+Objetivo
+Reforzar el uso de métodos void aplicando ingreso de datos con Scanner, uso de atributos, cálculo simple y presentación clara de resultados.
+🟦 CONCEPTO CLAVE
+Un método void NO devuelve valores (no usa return). Solo ejecuta acciones como ingresar datos o mostrar información.
+Enunciado
+Crear una clase llamada Producto que permita registrar:
+• nombre del producto
+• precio
+• cantidad
+Requerimientos
+El programa debe utilizar métodos void para:
+✔ ingresar los datos
+✔ calcular el total
+✔ mostrar la información
+Métodos obligatorios
+• ingresarDatos() → ingresar datos con Scanner
+• mostrarFactura() → calcular total y mostrar resultados
+🟥 ERROR COMÚN
+No usar return en este ejercicio. Si lo usas, el método deja de ser void.
+Formato de salida esperado
+--------------------------------
+Ejemplo de ejecución
+Ingrese el nombre del producto: Laptop
+Ingrese el precio: 800
+Ingrese la cantidad: 2
+
+----------- FACTURA -----------
+
+Producto: Laptop
+Precio unitario: 800.0
+Cantidad: 2
+
+Total a pagar: 1600.0
+
+--------------------------------
+ */
+
 import java.util.Scanner;
 
 public class Producto {
